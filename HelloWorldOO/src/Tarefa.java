@@ -21,8 +21,8 @@ public class Tarefa {
     }
 
     public void imprimirTarefa() {
-        System.out.println("Tútulo: " + titulo);
-        System.out.println("Descricao: " + descricao);
+        System.out.println("Título: " + titulo);
+        System.out.println("Descrição: " + descricao);
         System.out.println("Executada: " + executada);
     }
 
@@ -39,6 +39,10 @@ public class Tarefa {
     public void setData(LocalDate novaData){
         data = novaData;
         modificadoEm = LocalDate.now();
+    }
+
+    public String getTitulo() {
+        return titulo;
     }
 
 
