@@ -14,7 +14,7 @@ public class Testador {
 
         System.out.println("Trabalhando com lista de tarefas");
 
-        ListaTarefas lista = new ListaTarefas();
+        ListaTarefasUsandoListaSimples lista = new ListaTarefasUsandoListaSimples();
 
         System.out.println("Imprimindo a lista (vazia)");
         lista.imprimirListaTarefas();
