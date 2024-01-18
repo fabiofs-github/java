@@ -6,6 +6,7 @@ public class Tarefa {
     private String titulo;
     private String descricao;
     private boolean executada = false;
+    private Tarefa proximaTarefa;
 
     private LocalDate modificadoEm;
 
@@ -43,6 +44,22 @@ public class Tarefa {
 
     public String getTitulo() {
         return titulo;
+    }
+
+    public Tarefa getProximaTarefa(){
+        return proximaTarefa;
+    }
+
+    public void setProximaTarefa(Tarefa novaTarefa){
+        proximaTarefa = novaTarefa;
+    }
+
+    public void setTarefaAnterior(Tarefa tarefa) {
+        tarefaAnterior = tarefa;
+    }
+
+    public Tarefa getTarefaAnterior() {
+        return tarefaAnterior;
     }
 
 

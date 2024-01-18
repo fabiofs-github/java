@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public class Testador {
+public class TestadorListaSimples {
 
     public static void main(String[] args) {
         Tarefa estudoJava = new Tarefa("Estudo de Java Básico", "Estudar as estruturas básicas da linguagem java", LocalDate.now());

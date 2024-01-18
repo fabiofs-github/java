@@ -1,6 +1,6 @@
-public class ListaTarefas {
+public class ListaTarefasUsandoListaSimples {
 
-    private Tarefa[] lista = new Tarefa[10]; // [ 1, 2, , 11, , 8, 9, 10]
+    private Tarefa[] lista = new Tarefa[10];
 
     public void imprimirListaTarefas(){
         for (int indice = 0; indice < lista.length; indice++){
